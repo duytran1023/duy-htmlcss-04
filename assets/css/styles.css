@@ -12,12 +12,81 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* common */
+.container {
+    width: 1170px;
+    max-width: calc(100%-48px);
+    margin: 0 auto;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Sora', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* ke thua font-family cua the cha */
 input, textarea, select, button {
     font-size: inherit;
     font-family: inherit;
+}
+
+.btn {
+    color: #000958;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 9, 88, 0.7);
+
+    padding: 15px 31px;
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* ==============Header============= */
+.header {
+    padding: 26px 0;
+}
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_link {
+    padding: 8px 18px;
+    color: #5E6085;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.navbar_link:hover {
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.btn__sign-in {
+    color: #000958;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    margin-right: 6px;
 }
